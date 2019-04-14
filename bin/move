@@ -16,10 +16,8 @@ index = input_to_index(input)
 move(board, index, character_player = "X")
 
 
-display_board(board)
-
 def move(board, index, character_player = "X")
   board[index] = character_player
 end
 
-display_board(board, move, index)
+display_board(board)
