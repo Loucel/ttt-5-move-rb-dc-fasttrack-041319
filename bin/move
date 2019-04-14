@@ -12,7 +12,15 @@ puts "Where would you like to go?"
 input = gets.strip
 index = input_to_index(input)
 
+<<<<<<< HEAD
 move(board, index, character_player = "X")
 
 
 display_board(board)
+=======
+def move(board, index, character_player = "X")
+  board[index] = character_player
+end
+
+display_board(board, move, index)
+>>>>>>> 29c5d2b5c906ae650e158ecac444283577653b8c
