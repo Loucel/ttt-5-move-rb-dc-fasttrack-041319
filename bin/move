@@ -23,4 +23,3 @@ def move(board, index, character_player = "X")
 end
 
 display_board(board, move, index)
->>>>>>> 29c5d2b5c906ae650e158ecac444283577653b8c
