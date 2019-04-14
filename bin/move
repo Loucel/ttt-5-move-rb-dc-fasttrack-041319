@@ -17,7 +17,7 @@ move(board, index, character_player = "X")
 
 
 display_board(board)
-=======
+
 def move(board, index, character_player = "X")
   board[index] = character_player
 end
