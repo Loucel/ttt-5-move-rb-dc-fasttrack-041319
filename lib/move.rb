@@ -1,6 +1,5 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
-#<<<<<<< HEAD
 
 
 def display_board(board)
