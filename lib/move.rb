@@ -1,7 +1,9 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 
+
 def display_board(board)
+#>>>>>>> 29c5d2b5c906ae650e158ecac444283577653b8c
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
